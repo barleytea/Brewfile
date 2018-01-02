@@ -35,6 +35,7 @@ cask google-chrome
 cask google-japanese-ime
 cask java
 cask sourcetree
+cask opera
 cask alfred
 cask skitch
 
