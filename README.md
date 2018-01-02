@@ -1,2 +1,3 @@
 # Brewfile
-brew setting
+
+`$ brew file update`
