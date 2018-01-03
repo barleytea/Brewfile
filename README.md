@@ -48,6 +48,13 @@
     ```
 
    `$ jenv add /Library/Java/JavaVirtualMachines/jdk${JDK_VERSION}.jdk/Contents/Home`
+   
+   ```
+   oracle64-1.8.0.152 added
+   1.8.0.152 added
+   1.8 added
+   
+   ```
 
 1. switch
 
