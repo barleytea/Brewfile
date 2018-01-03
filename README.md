@@ -32,11 +32,11 @@
 
 ### see available jdk
 
-    `$ /usr/libexec/java_home -V`
+    $ /usr/libexec/java_home -V
 
 ### add java
 
-    `$ jenv add /Library/Java/JavaVirtualMachines/jdk${JDK_VERSION}.jdk/Contents/Home`
+    $ jenv add /Library/Java/JavaVirtualMachines/jdk${JDK_VERSION}.jdk/Contents/Home
 
 4. switch
 
