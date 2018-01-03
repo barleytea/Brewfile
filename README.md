@@ -19,7 +19,6 @@
 	java  
 	==> Partial Matches  
 	charles-applejava      eclipse-java         java-jdk-javadoc       java6                    	java8                netbeans-java-ee       netbeans-java-se       yourkit-java-profiler
-	
 	```
 
 	`$ brew cask install java` (latest version)
@@ -37,14 +36,13 @@
    `$ source ~/.bashrc`
 
 	`$ /usr/libexec/java_home -V`
-		
+
     ```
     Matching Java Virtual Machines (2):
     9.0.1, x86_64:	"Java SE 9.0.1"	/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home
     1.8.0_152, x86_64:	"Java SE 8"	/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home
 
     /Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home
-	
     ```
 
    `$ jenv add /Library/Java/JavaVirtualMachines/jdk${JDK_VERSION}.jdk/Contents/Home`
@@ -52,8 +50,7 @@
    ```
    oracle64-1.8.0.152 added
    1.8.0.152 added
-   1.8 added
-   
+   1.8 added   
    ```
 
 1. switch
