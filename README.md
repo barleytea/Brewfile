@@ -1,10 +1,12 @@
 # Brewfile
 
 ## Update
-    `$ brew file update`
+
+    $ brew file update
 
 ## Apply
-    `$ brew bundle Brewfile`
+
+    $ brew bundle Brewfile
 
 ## Switch multiple java version
 
