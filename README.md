@@ -1,46 +1,55 @@
 # Brewfile
 
-## Update
+## Update  
+`$ brew file update`
 
-    $ brew file update
+## Apply  
+`$ brew bundle Brewfile`
 
-## Apply
+## Switch multiple java versions
 
-    $ brew bundle Brewfile
+1. install homebrew-cask-version  
+	`$ brew tap caskroom/versions`
 
-## Switch multiple java version
+1. install jdk  
+	`$ brew cask search java`
 
-1. install homebrew-cask-version
+	```
+	==> Exact Match  
+	java  
+	==> Partial Matches  
+	charles-applejava      eclipse-java         java-jdk-javadoc       java6                    	java8                netbeans-java-ee       netbeans-java-se       yourkit-java-profiler
+	
+	```
 
-    `$ brew tap caskroom/versions`
+	`$ brew cask install java` (latest version)
 
-2. install jdk
-    `$ brew cask search java`
+	`$ brew cask install java${JAVA_VERSION}`
 
-    `$ brew cask install java` (latest version)
+1. install jEnv
 
-    `$ brew cask install java${JAVA_VERSION}`
+	`$ brew install jenv`
 
-3. install jEnv
+   `$ echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.bashrc`
 
-    `$ brew install jenv`
+   `$ echo 'eval "$(jenv init -)"' >> ~/.bashrc`
+    
+   `$ source ~/.bashrc`
 
+	`$ /usr/libexec/java_home -V`
+		
+    ```
+    Matching Java Virtual Machines (2):
+    9.0.1, x86_64:	"Java SE 9.0.1"	/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home
+    1.8.0_152, x86_64:	"Java SE 8"	/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home
 
-    `$ echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.bashrc`
+    /Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home
+	
+    ```
 
-    `$ echo 'eval "$(jenv init -)"' >> ~/.bashrc`
+   `$ jenv add /Library/Java/JavaVirtualMachines/jdk${JDK_VERSION}.jdk/Contents/Home`
 
-    `$ source ~/.bashrc`
-
-### see available jdk
-
-    $ /usr/libexec/java_home -V
-
-### add java
-
-    $ jenv add /Library/Java/JavaVirtualMachines/jdk${JDK_VERSION}.jdk/Contents/Home
-
-4. switch
+1. switch
 
     `$ jenv global oracle64-${JDK_VERSION}`
 
