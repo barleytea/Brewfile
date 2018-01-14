@@ -2,13 +2,21 @@
 # tap repositories and their packages
 
 tap homebrew/core
+brew autoconf
 brew docker
+brew gdbm
 brew git
 brew haskell-stack
 brew jenv
 brew mas
 brew maven
+brew openssl
+brew pcre
+brew pkg-config
+brew pyenv
+brew readline
 brew tomcat
+brew zsh
 
 tap caskroom/cask
 cask rstudio
@@ -34,6 +42,7 @@ cask night-owl
 cask google-chrome
 cask google-japanese-ime
 cask java
+cask plain-clip
 cask sourcetree
 cask opera
 cask alfred
