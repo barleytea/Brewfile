@@ -35,7 +35,6 @@ cask evernote
 cask iterm2
 cask dropbox
 cask docker
-cask dash
 cask clipy
 cask caffeine
 cask gfxcardstatus
