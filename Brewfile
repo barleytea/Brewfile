@@ -42,6 +42,7 @@ cask gfxcardstatus
 cask sublime-text
 cask android-studio
 cask night-owl
+cask boostnote
 cask google-chrome
 cask google-japanese-ime
 cask java
