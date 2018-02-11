@@ -28,12 +28,14 @@ cask r-app
 cask eclipse-java
 cask macvim
 cask skype
+cask appcleaner
 cask cmd-eikana
 cask onedrive
 cask macdown
 cask evernote
 cask iterm2
 cask dropbox
+cask enpass
 cask docker
 cask clipy
 cask caffeine
@@ -58,7 +60,6 @@ tap rcmdnk/file
 brew brew-file
 
 # App Store applications
-appstore 443987910 1Password (6.8.6)
 appstore 682658836 GarageBand (10.2.0)
 appstore 408981434 iMovie (10.1.8)
 appstore 409183694 Keynote (7.3.1)
