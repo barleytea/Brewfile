@@ -4,9 +4,9 @@
 `$ brew file update`
 
 ## Apply
-`mkdir ~/.config`  
-`cd ~/.config`  
-`git clone https://github.com/barleytea/Brewfile.git`  
+`$ mkdir ~/.config`  
+`$ cd ~/.config`  
+`$ git clone https://github.com/barleytea/Brewfile.git`  
 `$ brew bundle Brewfile`
 
 ## Switch multiple Java versions
