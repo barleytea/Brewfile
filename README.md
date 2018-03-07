@@ -7,7 +7,7 @@
 `$ mkdir ~/.config`  
 `$ cd ~/.config`  
 `$ git clone https://github.com/barleytea/Brewfile.git`  
-`$ brew bundle Brewfile`
+`$ brew bundle -v`
 
 ## Switch multiple Java versions
 
