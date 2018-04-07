@@ -10,6 +10,7 @@ brew 'fontforge'
 brew 'freetype'
 brew 'gdbm'
 brew 'gettext'
+brew 'ghq'
 brew 'git'
 brew 'glib'
 brew 'gobject-introspection'
@@ -85,14 +86,3 @@ brew 'brew-file'
 
 tap 'sanemat/font'
 brew 'ricty'
-
-# App Store applications
-# appstore 682658836 GarageBand (10.2.0)
-# appstore 408981434 iMovie (10.1.8)
-# appstore 409183694 Keynote (7.3.1)
-# appstore 539883307 LINE (5.6.0)
-# appstore 409203825 Numbers (4.3.1)
-# appstore 867299399 OmniFocus (2.11.2)
-# appstore 409201541 Pages (6.3.1)
-# appstore 415166115 Typist (2.4.0)
-# appstore 497799835 Xcode (9.2)
